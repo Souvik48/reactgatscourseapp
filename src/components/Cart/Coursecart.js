@@ -42,7 +42,7 @@ export default class Coursecart extends Component {
                 data-item-name={node.title}
                 data-item-price={node.price}
 
-                data-item-url="https://learncodeonline.in"
+                data-item-url="https://souviksco.netlify.app/"
                 data-item-image={node.image.fixed.src}
                 
                 className="btn btn-warning snipcart-add-item">Join Now</button>                   
