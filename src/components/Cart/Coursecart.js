@@ -32,7 +32,7 @@ export default class Coursecart extends Component {
                <div class="flex-grow-1 px-3">
                 <div class="d-flex justify-content-between">
                 <h4 class="mb-0">{node.title}</h4>
-                <h4 class="mb-0 text-success">$ {node.price}</h4>
+                <h4 class="mb-0 text-success">$$ {node.price}</h4>
                 </div>
                 <p className="text-muted">
                     <small>{node.description.description}</small>
