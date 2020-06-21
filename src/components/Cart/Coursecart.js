@@ -86,7 +86,7 @@ export default class Coursecart extends Component {
                <div class="flex-grow-1 px-3">
                 <div class="d-flex justify-content-between">
                 <h4 class="mb-0">{node.title}</h4>
-                <h4 class="mb-0 text-success">$$ {node.price}</h4>
+                <h4 class="mb-0 text-success">${node.price}</h4>
 
                 </div>
                 <p className="text-muted">
@@ -100,7 +100,7 @@ export default class Coursecart extends Component {
                 data-item-url="https://souviksco.netlify.app/"
                 data-item-image={node.image.fixed.src}
                 
-                className="btn btn-warning snipcart-add-item">Join Now</button>                   
+                className="btn btn-warning snipcart-add-item">Add to Cart</button>                   
                </div>
                </div>
             )
